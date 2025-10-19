@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/janeczku/Calibre-Web\n"
 "POT-Creation-Date: 2025-09-12 08:48+0200\n"
 "PO-Revision-Date: 2024-09-18 19:45+0200\n"
-"Last-Translator: Andrej Kralj\n"
+"Last-Translator: Janez Novak\n"
 "Language: sl\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -164,7 +164,7 @@ msgstr "Ali res želite izbrisati tega uporabnika?"
 
 #: cps/admin.py:621
 msgid "Do you really want to delete this book?"
-msgstr ""
+msgstr "Ali res želite izbrisati to knjigo?"
 
 #: cps/admin.py:623
 msgid "Are you sure you want to delete this shelf?"
@@ -184,11 +184,11 @@ msgstr "Ali ste prepričani, da želite spremeniti izbrano vlogo za izbranega(-e
 
 #: cps/admin.py:631
 msgid "Are you sure you want to change the archive status for the selected book(s)?"
-msgstr ""
+msgstr "Ali ste prepričani, da želite spremeniti status arhiva za izbrano knjige?"
 
 #: cps/admin.py:633
 msgid "Are you sure you want to change the read status for the selected book(s)?"
-msgstr ""
+msgstr "Ali ste prepričani, da želite spremeniti status branja za izbrane knjige?"
 
 #: cps/admin.py:635
 msgid "Are you sure you want to change the selected restrictions for the selected user(s)?"
@@ -578,7 +578,7 @@ msgstr "Pri pretvorbi te knjige je prišlo do napake: %(res)s"
 
 #: cps/editbooks.py:297
 msgid "Changes successfully applied"
-msgstr ""
+msgstr "Spremembe so bile uspešno uporabljene"
 
 #: cps/editbooks.py:317
 msgid "Value is missing on request"
@@ -654,7 +654,7 @@ msgstr "Manjkajo vam dovoljenja za brisanje knjig"
 #: cps/editbooks.py:1139
 #, python-brace-format
 msgid "Book with id \"{}\" could not be deleted: not found"
-msgstr ""
+msgstr "Knjiga z id \"{}\" ni bila izbrisana: ni najdena"
 
 #: cps/editbooks.py:1181
 msgid "edit metadata"
@@ -2128,19 +2128,19 @@ msgstr "To polje je obvezno"
 
 #: cps/templates/book_table.html:25
 msgid "Archive selected books"
-msgstr ""
+msgstr "Arhiviraj izbrane knjige"
 
 #: cps/templates/book_table.html:28
 msgid "Unarchive selected books"
-msgstr ""
+msgstr "Odarhiviraj izbrane knjige"
 
 #: cps/templates/book_table.html:34
 msgid "Mark selected books as read"
-msgstr ""
+msgstr "Označi izbrane knjige kot prebrane"
 
 #: cps/templates/book_table.html:37
 msgid "Mark selected books as unread"
-msgstr ""
+msgstr "Označi izbrane knjige kot neprebrane"
 
 #: cps/templates/book_table.html:57
 msgid "Merge selected books"
@@ -2152,7 +2152,7 @@ msgstr ""
 
 #: cps/templates/book_table.html:63
 msgid "Edit selected books"
-msgstr ""
+msgstr "Uredi izbrane knjige"
 
 #: cps/templates/book_table.html:67
 msgid "Exchange author and title"
